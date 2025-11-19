@@ -1,3 +1,6 @@
+# ========================
+# ANDROID / JAVA RELATED
+# ========================
 gradle-wrapper.jar
 /.gradle
 /captures/
@@ -12,3 +15,61 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# ========================
+# MISCELLANEOUS
+# ========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ========================
+# INTELLIJ / IDEA
+# ========================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ========================
+# VSCODE (opsional)
+# ========================
+#.vscode/
+
+# ========================
+# FLUTTER / DART
+# ========================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+coverage/
+
+# ========================
+# SYMBOLICATION
+# ========================
+app.*.symbols
+
+# ========================
+# OBFUSCATION
+# ========================
+app.*.map.json
+
+# ========================
+# ANDROID STUDIO BUILD OUTPUT
+# ========================
+/android/app/debug
+/android/app/profile
+/android/app/release
