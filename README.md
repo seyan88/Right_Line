@@ -1,5 +1,12 @@
 # Right Line
 
+![Logo](assetss/logo_right_line.jpeg)
+![Splash](assetss/WhatsApp Image 2025-11-19 at 20.41.17.jpeg)
+
+
+
+
+
 ## Deskripsi Proyek
 
 **Right Line** adalah aplikasi penuntun jalan digital yang dirancang untuk membantu umat Islam menuju ketaatan yang lebih baik. Aplikasi ini berfungsi sebagai pengingat dan alat bantu untuk menunaikan ibadah, senantiasa taat, dan bersyukur kepada Allah SWT.
@@ -61,7 +68,7 @@ Dependencies utama yang digunakan dalam proyek ini:
 ## 📽️ Demo Aplikasi
 Tonton video demo berikut untuk melihat cara kerja aplikasi secara keseluruhan:
 
-**[Video Demo Right Line App]**
+**[Video Demo Right Line App](assetss/WhatsApp%20Video%202025-11-19%20at%2020.41.17.mp4)**
 
 ---
 
@@ -70,23 +77,11 @@ Tonton video demo berikut untuk melihat cara kerja aplikasi secara keseluruhan:
 Aplikasi versi Android (APK) siap dipasang dapat diunduh langsung melalui tautan Google Drive berikut:
 
 **Unduh Aplikasi Android (APK):**  
-[Link to Google Drive APK File]
+[[Link to Google Drive APK File](https://drive.google.com/drive/folders/1s8hC8SxGUWLsYpgnyNS33yALik3pVoo2?usp=sharing)]
 
 ---
 
-## Kontribusi
 
-Kami menyambut kontribusi dari komunitas!  
-Jika Anda memiliki saran atau menemukan *bug*, silakan buka *issue* atau kirimkan *pull request*.
-
----
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah **MIT License**.  
-Lihat berkas `LICENSE` untuk detail lebih lanjut.
-
----
 
 ## Informasi Awal Proyek (Flutter Default)
 
