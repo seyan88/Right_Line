@@ -1,11 +1,7 @@
 # Right Line
 
-![Logo](assetss/logo_right_line.jpeg)
-![Splash](assetss/WhatsApp Image 2025-11-19 at 20.41.17.jpeg)
-
-
-
-
+![Logo](assetss/logo_right_line.png)
+![Splash](assetss/splash.jpeg)
 
 ## Deskripsi Proyek
 
@@ -18,13 +14,16 @@
 Aplikasi ini menyediakan fitur-fitur penting yang berfokus pada jadwal ibadah dan lokasi tempat ibadah terdekat:
 
 ### ⏱️ Jadwal Waktu Ibadah
+
 Aplikasi ini menampilkan waktu-waktu penting dalam sehari yang berkaitan dengan ibadah:
+
 1. **Sahur**
 2. **Imsak**
 3. **Waktu Adzan** (Subuh, Zuhur, Ashar, Maghrib, Isya)
 
 ### 🗺️ Pencari Masjid Terdekat
-Melalui menu **Map** yang terletak di *bottom navbar*, pengguna dapat menemukan dan menavigasi ke masjid terdekat untuk melaksanakan salat berjamaah.
+
+Melalui menu **Map** yang terletak di _bottom navbar_, pengguna dapat menemukan dan menavigasi ke masjid terdekat untuk melaksanakan salat berjamaah.
 
 ---
 
@@ -32,10 +31,11 @@ Melalui menu **Map** yang terletak di *bottom navbar*, pengguna dapat menemukan 
 
 Aplikasi **Right Line** dikembangkan menggunakan:
 
-- **Flutter**: Framework UI untuk membangun aplikasi *cross-platform* (Android dan iOS) dari satu basis kode.  
+- **Flutter**: Framework UI untuk membangun aplikasi _cross-platform_ (Android dan iOS) dari satu basis kode.
   - **Target Platform:** Android dan iOS.
 
 ### Dependencies (Pubspec.yaml)
+
 Dependencies utama yang digunakan dalam proyek ini:
 
 - `shared_preferences: ^2.2.2`
@@ -49,16 +49,19 @@ Dependencies utama yang digunakan dalam proyek ini:
 ### API yang Digunakan
 
 #### 1. Waktu Salat/Adzan
+
 **URL:**  
 `http://api.aladhan.com/v1/timings/$date?latitude=${userLocation!.latitude}&longitude=${userLocation!.longitude}&method=2`  
 **Tujuan:** Mengambil data waktu salat berdasarkan tanggal dan lokasi pengguna.
 
 #### 2. Pencarian Masjid Terdekat (Overpass API)
+
 **URL:**  
 `https://overpass-api.de/api/interpreter?data=[out:json];'(node["amenity"="place_of_worship"]["religion"="muslim"](around:2000,$lat,$lon););out;'`  
 **Tujuan:** Mengambil data lokasi masjid di radius 2000 meter dari database OpenStreetMap.
 
 #### 3. Navigasi/Directions (Google Maps)
+
 **URL:**  
 `https://www.google.com/maps/dir/?api=1&origin=${from.latitude},${from.longitude}&destination=${to.latitude},${to.longitude}&travelmode=driving`  
 **Tujuan:** Membuka navigasi Google Maps menuju masjid yang dipilih.
@@ -66,9 +69,10 @@ Dependencies utama yang digunakan dalam proyek ini:
 ---
 
 ## 📽️ Demo Aplikasi
+
 Tonton video demo berikut untuk melihat cara kerja aplikasi secara keseluruhan:
 
-**[Video Demo Right Line App](assetss/WhatsApp%20Video%202025-11-19%20at%2020.41.17.mp4)**
+**[Video Demo Right Line App](assetss/demo.mp4)**
 
 ---
 
@@ -81,12 +85,10 @@ Aplikasi versi Android (APK) siap dipasang dapat diunduh langsung melalui tautan
 
 ---
 
-
-
 ## Informasi Awal Proyek (Flutter Default)
 
 Bagian ini adalah template bawaan Flutter saat proyek dibuat.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)  
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)  
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 - Dokumentasi Flutter: https://docs.flutter.dev/
