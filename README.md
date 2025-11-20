@@ -72,7 +72,7 @@ Dependencies utama yang digunakan dalam proyek ini:
 
 Tonton video demo berikut untuk melihat cara kerja aplikasi secara keseluruhan:
 
-**[Video Demo Right Line App](assetss/demo.mp4)**
+![Video Demo Right Line App](assetss/demo.mp4)
 
 ---
 
