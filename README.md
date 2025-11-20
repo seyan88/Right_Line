@@ -76,6 +76,14 @@ Tonton video demo berikut untuk melihat cara kerja aplikasi secara keseluruhan:
 
 ---
 
+## 📁 Assets (Foto & Video)
+
+Klik untuk melihat semua foto dan video aplikasi:
+
+👉 [Buka Folder Assets](assetss/)
+
+---
+
 ## 📥 Instalasi dan Unduh
 
 Aplikasi versi Android (APK) siap dipasang dapat diunduh langsung melalui tautan Google Drive berikut:
